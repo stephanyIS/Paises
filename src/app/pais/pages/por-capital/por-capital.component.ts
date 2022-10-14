@@ -33,4 +33,9 @@ export class PorCapitalComponent implements OnInit {
        })
   }
 
+  sugerencias( termino:string ){
+    console.log(termino, ' en sugerencias')
+    this.hayError = false;
+  }
+
 }
